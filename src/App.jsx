@@ -85,12 +85,7 @@ const STEPS = [
 ];
 
 const NEWS = [
-  {
-    featured: true,
-    date: "Juin 2026",
-    title: "NoveliaTech lance son module de recherche augmentée par l'IA",
-    excerpt: "Une nouvelle offre dédiée pour rendre les professionnels du voyage prêts pour l'intelligence artificielle.",
-  },
+  
   {
     date: "Mai 2026",
     title: "NoveliaTech rejoint le salon du tourisme professionnel à Alger",
@@ -281,8 +276,8 @@ function PageAccueil({ setPage }) {
           </h1>
           <p className="hero__sub">
             Hôtels, fournisseurs et distributeurs : connectez votre inventaire à un réseau B2B
-            actif dans plus de 40 pays — via API si vous êtes équipé, via notre Extranet en
-            quelques clics si vous ne l'êtes pas.
+            actif dans plus de 40 pays — via API et  notre Extranet en
+            quelques clics 
           </p>
           <div className="hero__btns hero__btns--center">
             <button className="btn btn--primary" onClick={() => setPage("Signup")}>
@@ -313,9 +308,8 @@ function PageAccueil({ setPage }) {
                 Nous transformons la complexité du voyage B2B en opportunité de croissance.
               </h2>
               <p className="section__lead" style={{ textAlign: "left" }}>
-                Depuis plus de deux ans, nous construisons des solutions technologiques qui
-                s'attaquent directement aux défis structurels du secteur — pas à des
-                symptômes, mais à leurs causes.
+                Depuis plus de 20 ans, nous construisons des solutions technologiques qui
+                s'attaquent directement aux défis structurels du secteur
               </p>
             </div>
             <div className="challenges-list">
@@ -543,7 +537,7 @@ function PageAccueil({ setPage }) {
           <div className="cta-reassurance">
             <span>✓ Démo de 20 min, sans engagement</span>
             <span>✓ Aucun développeur requis pour démarrer</span>
-            <span>✓ Conforme RGPD · ISO 27001</span>
+            
           </div>
         </div>
       </section>
@@ -730,14 +724,7 @@ function PageCouverture({ setPage }) {
 // ─── PAGE ACTUALITES ─────────────────────────────────────────
 function PageActualites({ setPage }) {
   const ALL_NEWS = [
-    {
-      featured: true,
-      date: "Juin 2026",
-      title: "NoveliaTech lance son module de recherche augmentée par l'IA",
-      excerpt: "Une nouvelle offre dédiée pour rendre les professionnels du voyage prêts pour l'intelligence artificielle.",
-      content: "Cette innovation majeure permet aux agences de voyage et tour-opérateurs d'intégrer des capacités d'IA directement dans leur processus de recherche et de réservation.",
-      author: "Équipe NoveliaTech",
-    },
+    
     {
       date: "Mai 2026",
       title: "NoveliaTech rejoint le salon du tourisme professionnel à Alger",
