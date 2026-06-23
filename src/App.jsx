@@ -24,11 +24,11 @@ const NAV_LINKS = [
 const CHALLENGES = [
   {
     title: "Réservations fragmentées",
-    body: "Vos canaux de vente, vos partenaires et vos stocks vivent dans des systèmes qui ne se parlent pas. NoveliaTech centralise l'ensemble sur une seule infrastructure — sans développeur requis.",
+    body: "Vos canaux de vente, vos partenaires et vos stocks vivent dans des systèmes qui ne se parlent pas. NoveliaTech centralise l'ensemble sur une seule infrastructure — sans expertise requis.",
   },
   {
     title: "Intégration technique trop lourde",
-    body: "Connectez-vous via API si vous êtes équipé, ou utilisez notre Extranet visuel si vous ne l'êtes pas. Vous vendez dès la configuration terminée, pas dans plusieurs mois.",
+    body: "Connectez-vous via API , ou utilisez notre Extranet visuel . Vous vendez dès la configuration terminée, pas dans plusieurs mois.",
   },
   {
     title: "Coûts d'acquisition qui s'envolent",
@@ -53,12 +53,12 @@ const PILLARS = [
   {
     icon: "🔌",
     title: "Connectivité hybride",
-    body: "API documentée pour une automatisation totale, ou Extranet visuel pour tout gérer sans une ligne de code. La seule plateforme qui s'adapte à votre niveau technique, pas l'inverse.",
+    body: "API documentée pour une automatisation totale, ou Extranet visuel pour tout gérer . La seule plateforme qui s'adapte à votre niveau technique, pas l'inverse.",
   },
   {
     icon: "⚡",
     title: "Mise en vente immédiate",
-    body: "Pas de PMS, pas de développeur ? Configurez votre catalogue en quelques heures et commencez à recevoir des réservations dès le premier jour.",
+    body: " Configurez votre catalogue en quelques heures et commencez à recevoir des réservations dès le premier jour.",
   },
   {
     icon: "🌍",
@@ -72,7 +72,7 @@ const PROOF_STATS = [
   { num: "40+", label: "Pays couverts" },
   { num: "99,9%", label: "Disponibilité SLA" },
   { num: "<200ms", label: "Temps de réponse API" },
-  { num: "2 ans", label: "D'expertise B2B" },
+  { num: "20 ans", label: "D'expertise B2B" },
 ];
 
 const LOGOS = ["Hilton", "Tulip Inn", "Sunhotel", "Dida", "DOTW", "El Comparador", "IDH Mall", "Expedia Partner"];
@@ -197,7 +197,7 @@ function Footer({ setPage }) {
           <p>Le hub de connectivité B2B pour le voyage. Une infrastructure pensée pour les professionnels — sécurisée, connectée et déployée à l'échelle internationale.</p>
           <div className="footer__socials">
             <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="footer__social">in</a>
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="footer__social">𝕏</a>
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="footer__social">f</a>
             <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="footer__social">▶</a>
           </div>
         </div>
@@ -268,7 +268,7 @@ function PageAccueil({ setPage }) {
         
         <div className="hero__content hero__content--center">
           <span className="hero__eyebrow">
-            🔗 Plateforme B2B Travel Tech — par IDH Group
+            🔗 Plateforme B2B Travel Tech 
           </span>
           <h1 className="hero__title">
             Vendez et distribuez votre offre voyage,<br />
@@ -333,8 +333,7 @@ function PageAccueil({ setPage }) {
           <div className="label txt-center">Pourquoi NoveliaTech</div>
           <h2 className="section__title txt-center">La seule plateforme qui s'adapte à votre niveau technique.</h2>
           <p className="section__lead txt-center" style={{ maxWidth: "680px" }}>
-            Automatisation complète par API, ou gestion 100% manuelle sans une ligne de code — vous choisissez.
-          </p>
+            Automatisation complète par API      </p>
           <div className="cards">
             {PILLARS.map((p, i) => (
               <div className="card" key={i}>
@@ -358,7 +357,7 @@ function PageAccueil({ setPage }) {
                 <div className="dual-mode__branch">
                   <span className="dual-mode__tag">Manuel</span>
                   <div className="dual-mode__line" />
-                  <div className="dual-mode__box">Extranet visuel<br /><small>Sans développeur, sans code</small></div>
+                  <div className="dual-mode__box">Extranet visuel<br /><small></small></div>
                 </div>
               </div>
               <div className="dual-mode__line dual-mode__line--down" />
@@ -536,7 +535,7 @@ function PageAccueil({ setPage }) {
           </div>
           <div className="cta-reassurance">
             <span>✓ Démo de 20 min, sans engagement</span>
-            <span>✓ Aucun développeur requis pour démarrer</span>
+            <span>✓ Aucune expertise  requis pour démarrer</span>
             
           </div>
         </div>
