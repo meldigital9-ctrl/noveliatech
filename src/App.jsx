@@ -222,7 +222,7 @@ function Footer({ setPage }) {
           <h4>Contact</h4>
           <ul>
             <li>✉ <a href="mailto:contact@noveliatech.com">contact@noveliatech.com</a></li>
-            <li>📞 <a href="tel:+33123456789">+33 1 23 45 67 89</a></li>
+            <li>📞 <a href="tel:+33999999999">+33 1 99 99 99 99</a></li>
             <li>📍 Paris, France</li>
           </ul>
           <div className="footer__newsletter">
@@ -271,7 +271,7 @@ function PageAccueil({ setPage }) {
             🔗 Plateforme B2B Travel Tech 
           </span>
           <h1 className="hero__title">
-            Vendez et distribuez votre offre voyage,<br />
+            Connectez votre offre voyage au monde,<br />
             <em>sans contrainte technique.</em>
           </h1>
           <p className="hero__sub">
